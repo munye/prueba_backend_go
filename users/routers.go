@@ -3,7 +3,7 @@ package users
 import (
 	"errors"
 	"github.com/munye/prueba_backend_go/common"
-	"gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 	"net/http"
 )
 

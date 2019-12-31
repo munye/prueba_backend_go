@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 
 	"github.com/jinzhu/gorm"
 	"github.com/munye/prueba_backend_go/articles"

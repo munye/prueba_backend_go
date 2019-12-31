@@ -2,7 +2,7 @@ package users
 
 import (
 	"github.com/munye/prueba_backend_go/common"
-	"gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 )
 
 // *ModelValidator containing two parts:
