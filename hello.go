@@ -6,9 +6,9 @@ import (
 	"gopkg.in/gin-gonic/gin.v1"
 
 	"github.com/jinzhu/gorm"
-	"github.com/munye/golang-gin-starter-kit/articles"
-	"github.com/munye/golang-gin-starter-kit/common"
-	"github.com/munye/golang-gin-starter-kit/users"
+	"github.com/munye/prueba_backend_go/articles"
+	"github.com/munye/prueba_backend_go/common"
+	"github.com/munye/prueba_backend_go/users"
 )
 
 func Migrate(db *gorm.DB) {
