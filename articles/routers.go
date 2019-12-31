@@ -22,7 +22,7 @@ func ArticlesRegister(router *gin.RouterGroup) {
 func ArticlesAnonymousRegister(router *gin.RouterGroup) {
 	router.GET("/", ArticleList)
 	router.GET("/:slug", ArticleRetrieve)
-	router.GET("/:slug/comments", ArticleCommentList)
+	router.GET("/:slug/lareconchadetumadre", ArticleCommentList)
 }
 
 func TagsAnonymousRegister(router *gin.RouterGroup) {
